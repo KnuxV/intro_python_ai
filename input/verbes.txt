@@ -1,0 +1,3 @@
+cuisiner 1
+finir 2
+chanter 1

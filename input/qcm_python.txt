@@ -1,0 +1,85 @@
+? Quelle est la bonne manière de définir une chaîne de caractères contenant le mot "Bonjour" ?
+[A] "Bonjour" = s
+[B] s = Bonjour
+[C] s = "Bonjour"
+* C
+? Par quel(s) caractère(s) commencent les lignes de commentaire ?
+[A] //
+[B] %
+[C] #
+[D] $
+* C
+? Que va afficher le code ci-dessous ?
+? nom = "Myrtille"
+? print(len(nom))
+[A] nom
+[B] 10
+[C] Myrtille
+[D] 8
+* D
+? Comment déclarer correctement la chaîne suivante ? Pierre dit : "J'ai fait un gâteau"
+[A] s = "Pierre dit : "J'ai fait un gâteau""
+[B] s = 'Pierre dit : "J'ai fait un gâteau"'
+[C] s = 'Pierre dit : "J\'ai fait un gâteau"'
+[D] s = Pierre dit : "J'ai fait un gâteau"
+* C
+? Que va afficher le code ci-dessous ?
+? mot = "programme"
+? print(mot[3]+mot[2]+mot[6:]+mot[1])
+[A] ramper
+[B] gramme
+[C] gommer
+[D] gommera
+* C
+? Lequel parmi les codes suivants ouvre le fichier roman.txt en mode écriture et permet d'obtenir un objet de type fichier appelé f ?
+[A] with open("roman.txt", "w") as f :
+[B] with open("roman.txt", "e") as f :
+[C] with open("roman.txt", "r") as f :
+* A
+? Remplissez les blancs dans le code ci-dessous : le code devrait écrire deux lignes dans le fichier agenda.txt
+? with open("agenda.txt", "w") __ ____ :
+? 	fich.write("11/10/2018 Cours\n")
+? 	fich.write("12/10/2018 Sport")
+[A] Il n'y a rien à mettre dans les blancs
+[B] fich
+[C] as f
+[D] as fich
+* D
+? A quoi sert une boucle ?
+[A] Lire un fichier
+[B] Répéter automatiquement des instructions
+[C] Revenir au début du programme
+[D] Tester une condition
+* B
+? Quel caractère spécial correspond au retour à la ligne ?
+[A] /n
+[B] |n
+[C] \t
+[D] \n
+* D
+? Que va afficher le code ci-dessous ?
+? nombres = [5, 8, 3, 4, 10]
+? print(nombres[-2] +  nombres[3])
+[A] 8
+[B] 1
+[C] 12
+[D] 7
+* A
+? Soit la liste suivant : fruits = ["pomme", "poire", "banane"]. Comment ajouter "orange" en fin de liste, après "banane" ?
+[A] fruits[3] = "orange"
+[B] fruits.append("orange")
+[C] fruits[-1]  = "orange"
+[D] fruits + "orange"
+* B
+? Quelle va être la valeur de legumes après avoir exécuté le code ci-contre ?
+? legumes = ["poireau", "chou", "carotte", "navet", "potiron"]
+? legumes.remove("navet")
+[A] ["poireau", "chou", "carotte", "potiron"]
+[B] 5
+[C] ["poireau", "chou", "carotte", "navet", "potiron"]
+[D] 4
+* A
+? liste[a:b] va retourner la portion de liste qui commence à l'indice a et se termine avant l'indice b
+[A] Vrai
+[B] Faux
+* A
