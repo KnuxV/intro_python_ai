@@ -7,11 +7,15 @@
       "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
+      }
     }
   },
   
-  "postCreateCommand": "pip install --user -r requirements.txt",
+  "postCreateCommand": "pip install --user -r requirements.txt && python -m ipykernel install --user --name=python3",
   
   "forwardPorts": [8888]
 }
